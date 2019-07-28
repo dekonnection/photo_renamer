@@ -7,6 +7,7 @@ A simple script to rename your ugly and inconsistently named pictures, to someth
 I was fed up with the pseudo-standard way digital photography files are named by cameras.
 
 You end up with something like that :
+
 ```
 DSCF0459.JPG
 DSCF0459.RAF
@@ -24,7 +25,7 @@ DSCF0464.RAF
 
 Problems :
 
-* It's not informative : 
+* It's not informative :
   * you cannot even know which year this photo has been taken
   * ... or with which camera
 * The ordering is broken / you can have name clashes :
@@ -64,7 +65,6 @@ You just need to pass your files to the `-f` flag, separated by spaces.
 
 (so if you need to rename an entire directory, `-f *.JPG` will do the job)
 
-
 ```
 $ python -m photo_renamer -f ./pics/*
 Welcome to photo_renamer !
@@ -103,6 +103,3 @@ Renaming :
 ./pics/DSCF0464.JPG => ./pics/20190714-093837_X-T2_DSCF0464.JPG : OK (renamed successfully)
 ./pics/DSCF0464.RAF => ./pics/20190714-093837_X-T2_DSCF0464.RAF : OK (renamed successfully)
 ```
-
-
-TODO
