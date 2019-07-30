@@ -46,7 +46,7 @@ def gen_new_name(filepath):
             exit(1)
 
         original_name = splitext(basename(file.name))[0]
-        date_id = datetime.strptime(image.datetime, "%Y:%m:%d %H:%M:%S").strftime(
+        date_id = datetime.strptime(image.datetime_original, "%Y:%m:%d %H:%M:%S").strftime(
             "%Y%m%d-%H%M%S"
         )
 
